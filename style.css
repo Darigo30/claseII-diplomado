@@ -1,0 +1,69 @@
+body {
+    background: url('completo.jpg') no-repeat center center fixed;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenedor {
+    background-color: #fff;
+    padding: 30px 0 30px;
+    border: 4px solid #000;
+}
+
+#lista-toppings {
+    padding: 0;
+}
+
+#titulo {
+    font-size: 20px;
+    text-align: center;
+    margin: 40px;
+}
+
+.topping{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    margin: 20px 0;
+}
+
+.fondo-rojo{
+    background-color: #be2600;
+}
+
+.fondo-azul {
+    background-color: #3e5cff;
+}
+
+/* Medias Queries */
+
+/* Tabletas */
+
+@media (min-width: 767px) {
+    #titulo {
+        font-size: 30px;
+    }
+}
+/* Desktop */
+@media (min-width: 1024px) {
+    #titulo {
+        font-size: 40px;
+    }
+}
+/* Dispositivos grandes */
+@media (min-width: 1200px) { 
+    #titulo {
+        font-size: 50px;
+    }
+}
+
